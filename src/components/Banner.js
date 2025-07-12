@@ -1,18 +1,16 @@
 'use client';
 
 import React from 'react';
-import Image from 'next/image';
 
 const Banner = () => {
   return (
     <section className="relative h-[140vh] lg:h-[130vh] w-full overflow-hidden text-white flex items-center">
       {/* Background Image covering whole section */}
       <div className="absolute inset-0 z-0">
-        <Image
+        <img
           src="/BannerPic.png"
           alt="Canva Workshop Background"
-          fill
-          className="object-cover"
+          className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-navy-100/80 via-blue-1000/80 to-purple-900/80"></div>
       </div>

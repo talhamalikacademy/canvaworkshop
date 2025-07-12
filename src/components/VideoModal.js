@@ -1,7 +1,6 @@
 'use client';
 
 import React, { useState, useRef } from 'react';
-import Image from 'next/image';
 
 const VideoModal = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -58,14 +57,11 @@ const VideoModal = () => {
           data-aos="fade-up"
           data-aos-delay="200"
         >
-          <div className="relative h-[500px] md:h-[600px] lg:h-[730px]">
-            <Image 
-              src="/VideoModalThumbanil.png" 
-              alt="Video Thumbnail" 
-              fill
-              className="object-cover" 
-            />
-          </div>
+          <img 
+            src="/VideoModalThumbanil.png" 
+            alt="Video Thumbnail" 
+            className="w-full h-[500px] md:h-[600px] lg:h-[730px] object-cover" 
+          />
           
           {/* Gradient overlay */}
           <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent group-hover:from-black/90 transition-all duration-300"></div>
