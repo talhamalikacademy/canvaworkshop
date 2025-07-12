@@ -1,10 +1,6 @@
-// next.config.mjs
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  output: 'export', // ← tells Next.js to do a static export
+};
 
-export default {
-  eslint: {
-    ignoreDuringBuilds: true,
-  },
-  typescript: {
-    ignoreBuildErrors: true,
-  },
-}
+module.exports = nextConfig;
