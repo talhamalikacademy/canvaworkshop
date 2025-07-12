@@ -48,7 +48,7 @@ const Banner = () => {
           {/* CTA buttons */}
           <div className="flex flex-col sm:flex-row gap-4 lg:gap-6 pt-4 justify-center lg:justify-start">
             <button className="px-6 lg:px-8 py-3 lg:py-4 bg-white text-black font-semibold rounded-lg hover:bg-gray-100 transition-all duration-300 text-base lg:text-lg shadow-lg hover:shadow-xl">
-              Enroll Now
+              <a href='/enrollnow'>Enroll Now</a>
             </button>
             <button 
               onClick={() => document.getElementById('preview')?.scrollIntoView({ behavior: 'smooth' })}

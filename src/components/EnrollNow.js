@@ -16,7 +16,7 @@ const EnrollNow = () => {
           data-aos="zoom-in"
           data-aos-delay="100"
         >
-          Start Your Canva Journey
+         <a href='/enrollnow'>Start Your Canva Journey</a>
         </button>
       </div>
     </section>

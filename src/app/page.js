@@ -4,10 +4,11 @@ import WhyLearnThis from '../components/WhyLearnThis';
 import Curriculum from '../components/Curriculum';
 import VideoModal from '../components/VideoModal';
 import MeetCreator from '../components/MeetCreator';
-import EnrollNow from '../components/EnrollNow';
 // import Footer from '../components/Footer';
 import HashScrollHandler from '../components/HashScrollHandler';
 import StickyLogo from '../components/StickyLogo';
+import EnrollNow from '@/components/EnrollNow';
+import Certification from '@/components/Certification';
 
 export default function Home() {
   return (
@@ -19,8 +20,9 @@ export default function Home() {
       <WhyLearnThis />
       <Curriculum />
       <VideoModal />
+      <Certification/>
       <MeetCreator />
-      <EnrollNow />
+      <EnrollNow/>
       {/* <Footer /> */}
     </main>
   );

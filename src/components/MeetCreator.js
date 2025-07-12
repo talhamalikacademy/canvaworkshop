@@ -20,7 +20,7 @@ const MeetCreator = () => {
             {/* Name */}
             <div className="space-y-3 lg:space-y-4">
               <h2 className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold leading-tight" style={{ fontFamily: 'Inter, sans-serif' }}>
-                <span className="text-red-500">Talha Malik</span>
+                <span className="text-blue-500">Talha Malik</span>
               </h2>
               <p className="text-base md:text-lg lg:text-xl text-white/80 uppercase tracking-wider font-semibold" style={{ fontFamily: 'Inter, sans-serif' }}>
                 Digital Design Expert & Content Creator
