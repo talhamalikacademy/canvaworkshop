@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+@import "tailwindcss";
+@import "aos/dist/aos.css";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-geist-sans), sans-serif; /* Using Next.js Geist font */
+  overflow-x: hidden; /* Prevent horizontal scroll due to animations */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-geist-sans), sans-serif;
+  line-height: 1.1;
+}
+
+.font-handwriting {
+  font-family: 'Dancing Script', cursive;
+}
+
+/* Custom Gradient Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(17, 24, 39, 0.3);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #3B82F6 0%, #8B5CF6 50%, #3B82F6 100%);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #2563EB 0%, #7C3AED 50%, #2563EB 100%);
+}
+
+/* Firefox scrollbar */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #3B82F6 #1F2937;
+}
+
+/* Professional neon button effect */
+.neon-button {
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+.neon-button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.2); /* Softer glow */
+  transform: skewX(-30deg);
+  transition: all 0.5s ease;
+}
+
+.neon-button:hover::before {
+  left: 100%;
+}
+
+.neon-button {
+  box-shadow: 0 0 8px rgba(66, 153, 225, 0.4), 0 0 16px rgba(128, 90, 213, 0.4); /* Softer shadows */
+}
+
+.neon-button:hover {
+  box-shadow: 0 0 12px rgba(66, 153, 225, 0.7), 0 0 24px rgba(128, 90, 213, 0.7), 0 0 36px rgba(66, 153, 225, 0.5); /* Enhanced but professional glow on hover */
+}
+
+/* Subtle Blob animation for background */
+@keyframes animate-blob {
+  0% {
+    transform: translate(0, 0) scale(1);
+    opacity: 0.6;
+  }
+  33% {
+    transform: translate(20px, -40px) scale(1.05);
+    opacity: 0.7;
+  }
+  66% {
+    transform: translate(-15px, 15px) scale(0.98);
+    opacity: 0.65;
+  }
+  100% {
+    transform: translate(0, 0) scale(1);
+    opacity: 0.6;
+  }
+}
+
+/* Utility for aspect ratio */
+.aspect-w-16 {
+  position: relative;
+  width: 100%;
+}
+
+.aspect-w-16::before {
+  content: '';
+  display: block;
+  padding-bottom: calc(100% / (16 / 9));
+}
+
+.aspect-w-16 > :first-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+/* Custom navy color for gradient */
+.navy-900 {
+  background-color: #0f172a;
+}
