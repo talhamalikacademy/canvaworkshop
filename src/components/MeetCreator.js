@@ -1,6 +1,7 @@
 'use client';
 
 import React from 'react';
+import Image from 'next/image';
 
 const MeetCreator = () => {
   return (
@@ -67,10 +68,12 @@ const MeetCreator = () => {
             <div className="relative group h-full">
               {/* Image Container */}
               <div className="relative top-24 overflow-hidden rounded-2xl shadow-2xl h-[250px] md:h-[350px] lg:h-[640px] lg:max-w-[36vw] mx-auto">
-                <img 
+                <Image 
                   src="/ProfilePhoto.png" 
                   alt="Talha Malik Profile Photo" 
-                  className="w-full h-full object-cover rounded-2xl transform transition-transform duration-300 group-hover:scale-105"
+                  fill
+                  priority
+                  className="object-cover rounded-2xl transform transition-transform duration-300 group-hover:scale-105"
                 />
                 
                 {/* Gradient Overlay */}

@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState, useRef } from 'react';
+import Image from 'next/image';
 
 const VideoModal = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -57,7 +58,7 @@ const VideoModal = () => {
           data-aos="fade-up"
           data-aos-delay="200"
         >
-          <img src="/VideoModalThumbanil.png" alt="Video Thumbnail" className="w-full h-[500px] md:h-[600px] lg:h-[730px] object-cover" />
+          <Image src="/VideoModalThumbanil.png" alt="Video Thumbnail" fill className="object-cover" />
           
           {/* Gradient overlay */}
           <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent group-hover:from-black/90 transition-all duration-300"></div>
@@ -85,7 +86,7 @@ const VideoModal = () => {
           <div className="absolute bottom-0 left-0 right-0 p-6 md:p-8 bg-gradient-to-t from-black/90 via-black/50 to-transparent">
             <div className="text-left">
               <h3 className="text-xl md:text-2xl font-bold text-white mb-2">Ultimate Canva Workshop Preview</h3>
-              <p className="text-gray-300 text-sm md:text-base">See what you'll learn in this comprehensive Canva course</p>
+              <p className="text-gray-300 text-sm md:text-base">See what you&apos;ll learn in this comprehensive Canva course</p>
             </div>
           </div>
 

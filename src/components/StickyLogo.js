@@ -1,6 +1,7 @@
 'use client';
 
 import React from 'react';
+import Image from 'next/image';
 
 const StickyLogo = () => {
   return (
@@ -13,10 +14,12 @@ const StickyLogo = () => {
         <div className="absolute inset-0 bg-gradient-to-r from-purple-500/30 to-blue-500/30 rounded-full blur-xl group-hover:blur-2xl transition-all duration-300 opacity-50 group-hover:opacity-70"></div>
         
         {/* Logo with enhanced styling */}
-        <img 
+        <Image 
           src="/Logo.png" 
           alt="Talha Malik Academy Logo" 
-          className="relative h-20 md:h-24 lg:h-28 xl:h-32 2xl:h-36 w-auto object-contain drop-shadow-2xl filter brightness-110 group-hover:brightness-125 transition-all duration-300"
+          fill
+          priority
+          className="object-contain drop-shadow-2xl filter brightness-110 group-hover:brightness-125 transition-all duration-300"
         />
         
         {/* Additional glow ring */}

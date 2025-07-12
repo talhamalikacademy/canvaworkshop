@@ -40,7 +40,7 @@ const WhyLearnThis = () => {
                 To Unlock Potential Of AI For 10x Productivity
               </h3>
               <p className="text-gray-300 text-base md:text-lg leading-relaxed">
-                Leverage Canva's AI features to automate tasks, generate content, and dramatically boost your creative output.
+                Leverage Canva&apos;s AI features to automate tasks, generate content, and dramatically boost your creative output.
               </p>
             </div>
             <div className="absolute inset-0 bg-gradient-to-r from-purple-500/5 to-blue-500/5 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
