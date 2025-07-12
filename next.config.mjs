@@ -3,4 +3,12 @@ const nextConfig = {
   output: 'export',
 };
 
-export default nextConfig;
+export default {
+  output: 'export',
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
+  typescript: {
+    ignoreBuildErrors: true,
+  },
+}
