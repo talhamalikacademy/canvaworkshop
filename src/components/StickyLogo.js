@@ -17,9 +17,10 @@ const StickyLogo = () => {
         <Image 
           src="/Logo.png" 
           alt="Talha Malik Academy Logo" 
-          fill
+          width={144}
+          height={144}
           priority
-          className="object-contain drop-shadow-2xl filter brightness-110 group-hover:brightness-125 transition-all duration-300"
+          className="h-20 md:h-24 lg:h-28 xl:h-32 2xl:h-36 w-auto object-contain drop-shadow-2xl filter brightness-110 group-hover:brightness-125 transition-all duration-300"
         />
         
         {/* Additional glow ring */}
