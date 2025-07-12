@@ -16,7 +16,7 @@ const Curriculum = () => {
         "What is Canva & Why Use It?",
         "Creating a Canva Account (Free vs Pro)",
         "Overview of the Canva Dashboard",
-        "Understanding Canva's Workspace",
+        "Understanding Canva&apos;s Workspace",
         "Basic Design Principles in Canva"
       ]
     },
@@ -25,7 +25,7 @@ const Curriculum = () => {
       title: "Module 2: Mastering Canva Tools",
       topics: [
         "Working with Templates",
-        "Using Canva's Drag-and-Drop Interface",
+        "Using Canva&apos;s Drag-and-Drop Interface",
         "Adding & Editing Text (Fonts, Effects, Hierarchy)",
         "Shapes, Icons & Illustrations",
         "Uploading & Managing Images and Videos",
@@ -61,7 +61,7 @@ const Curriculum = () => {
       title: "Module 5: Presentations and Documents",
       topics: [
         "Creating Stunning Presentations (PowerPoint Alternative)",
-        "Using Canva's Slide Templates",
+        "Using Canva&apos;s Slide Templates",
         "Pitch Decks, School Projects & Portfolios",
         "Creating Resumes and CVs"
       ]

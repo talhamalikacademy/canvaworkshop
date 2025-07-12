@@ -1,6 +1,6 @@
-// next.config.js
+// next.config.mjs
 
-module.exports = {
+export default {
   eslint: {
     ignoreDuringBuilds: true,
   },
