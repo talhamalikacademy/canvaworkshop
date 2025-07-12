@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   title: "Ultimate Canva WorkShop - Talha Malik Academy",
-  description: "A complete guide to using Canva AI to create stunning designs, to edit videos, and to generate content. Canva AI has changed the market and here we learn how to use it to its full potential.",
+  description:  "Complete guide to using Canva AI to create stunning designs, to edit videos, and to generate content. Canva AI has changed the market and here we learn how to use it to its full potential.",
   icons: {
     icon: [
       { url: '/favicon.png', sizes: '32x32', type: 'image/png' },
