@@ -14,10 +14,10 @@ const Curriculum = () => {
       title: "Module 1: Introduction to Canva",
       topics: [
         "What is Canva & Why Use It?",
-        "Creating a Canva Account (Free vs Pro)",
-        "Overview of the Canva Dashboard",
-        "Understanding Canva&apos;s Workspace",
-        "Basic Design Principles in Canva"
+        "Popular ways to access Canva premium free",
+        "Overview of the Canva And Setting",
+        "Difference between Canva and Adobe Photoshop",
+        "Canva 2.0 Latest Features Overview"
       ]
     },
     {
@@ -25,8 +25,8 @@ const Curriculum = () => {
       title: "Module 2: Mastering Canva Tools",
       topics: [
         "Working with Templates",
-        "Using Canva&apos;s Drag-and-Drop Interface",
-        "Adding & Editing Text (Fonts, Effects, Hierarchy)",
+        "Using Canva Drag-and-Drop Interface",
+        "Adding & Editing Text (Fonts, Effects)",
         "Shapes, Icons & Illustrations",
         "Uploading & Managing Images and Videos",
         "Using Color Palettes and Custom Colors",
@@ -38,9 +38,8 @@ const Curriculum = () => {
       title: "Module 3: Graphic Design Projects",
       topics: [
         "Designing a Social Media Post (Instagram/Facebook)",
-        "Creating a YouTube Thumbnail (16:9 Ratio)",
+        "Creating a YouTube Thumbnail (Eng/Urd)",
         "Making a Logo in Canva",
-        "Designing Posters and Flyers",
         "Creating Infographics Easily",
         "Business Cards & Letterheads"
       ]
@@ -53,7 +52,7 @@ const Curriculum = () => {
         "Creating YouTube Video Intros/Outros",
         "Making Engaging Instagram Reels using Canva Video",
         "Designing Stories & Highlights Covers",
-        "Thumbnails that Get Clicks (16:9 Thumbnail Tricks)"
+        "Editing A Short Video For YouTube"
       ]
     },
     {
@@ -61,9 +60,9 @@ const Curriculum = () => {
       title: "Module 5: Presentations and Documents",
       topics: [
         "Creating Stunning Presentations (PowerPoint Alternative)",
-        "Using Canva&apos;s Slide Templates",
-        "Pitch Decks, School Projects & Portfolios",
-        "Creating Resumes and CVs"
+        "Using Canva Slide Templates",
+        "Making Documnet In Canva (MS Word Alternative)",
+        "CV and Resume Designs"
       ]
     },
     {
@@ -72,40 +71,28 @@ const Curriculum = () => {
       topics: [
         "Background Remover (Free Alternatives)",
         "Magic Resize Tool (One Design, Multiple Platforms)",
-        "Canva AI Tools (Magic Write, Text to Image, Beat Sync)",
+        "Canva AI Tools (Magic Write, Text to Image, Text to audio)",
         "Using Canva Brand Kits",
-        "Working with Charts & Data Visuals"
       ]
     },
     {
       icon: "🌐",
-      title: "Module 7: Collaboration & Cloud Features",
+      title: "Module 7: Canva AI and Apps",
       topics: [
-        "Sharing and Collaborating with Others",
-        "Commenting and Team Editing",
-        "Publishing Directly to Social Media",
-        "Scheduling Content (Canva Pro)"
-      ]
-    },
-    {
-      icon: "💼",
-      title: "Module 8: Monetizing Canva Skills",
-      topics: [
-        "Freelancing with Canva (Fiverr, Upwork)",
-        "Designing for Clients",
-        "Creating Canva Templates to Sell",
-        "Canva Affiliate Program",
-        "Building a Design Portfolio"
+        "Generating a presentations using Canva AI",
+        "Making Pictures, Graphics using Canva AI inside template",
+        "Making promotional posts for instagram",
+        "Generating voice using text to audio feature",
+        "Exploring Text, Videos, and Designs Apps"
       ]
     },
     {
       icon: "🏁",
-      title: "Final Project & Certification Ideas",
+      title: "Final Project & Certification",
       topics: [
         "Design a Full Branding Kit for a YouTube Channel",
         "Submit 3 Projects: Logo, Thumbnail, and Instagram Post",
-        "Self-Evaluation Checklist",
-        "Ideas for Getting Certified (Free Canva Courses + Alternatives)"
+        "Self-Evaluation Checklist"
       ]
     }
   ];

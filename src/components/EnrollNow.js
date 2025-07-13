@@ -4,7 +4,7 @@ import React from 'react';
 
 const EnrollNow = () => {
   return (
-    <section id="enroll" className="relative py-20 md:py-28 bg-gray-800 text-white overflow-hidden text-center">
+    <section id="enroll" className="relative py-20 md:py-28 bg-black text-white overflow-hidden text-center">
       <div className="container mx-auto px-6 md:px-8 max-w-screen-xl">
         <h2 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 text-white leading-tight" style={{ fontFamily: 'Poppins, sans-serif' }}>
           <span className="text-white">Enroll Now</span>
